@@ -1,0 +1,28 @@
+{
+    "lat":"10.6785N",
+    "lon":"124.8006E",
+    "elevation":5,
+    "timezone":"Asia/Manila",
+    "units":"metric","current":{
+        "icon":"overcast",
+        "icon_num":7,
+        "summary":"Overcast",
+        "temperature":25.2,
+        "feels_like":28.2,
+        "wind_chill":26.8,
+        "dew_point":23.0,
+        "wind":{
+            "speed":1.6,
+            "gusts":3.0,
+            "angle":65,
+            "dir":"ENE"
+        },
+        "precipitation":{"total":0.0,"type":"none"},
+        "cloud_cover":94,
+        "ozone":245.47,
+        "pressure":1011,
+        "uv_index":0.0,
+        "humidity":87,
+        "visibility":24.14
+    }
+}
