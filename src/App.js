@@ -6,10 +6,10 @@ import './styles/components/App.scss';
 import "bootstrap-icons/font/bootstrap-icons.css"
 
 function App() {
-   const {dark} = useContext(ThemeContext);
+   const {light} = useContext(ThemeContext);
 
   return (
-    <div className={`App-${dark ? "dark" : "light"}`}> 
+    <div className={`App-${light ? "dark" : "light"}`}> 
       <Header />
       <Page />
     </div>
