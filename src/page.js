@@ -1,14 +1,14 @@
-import '../styles/components/Main.scss';
-import CurrentWeather from './CurrentWeather';
-import Forecast from './Forecast';
+import './styles/components/Main.scss';
+import CurrentWeather from './components/CurrentWeather';
+import Forecast from './components/Forecast';
 import { useContext } from 'react';
-import WeatherContext from '../context/weather.context';
-import Loader from './Loader';
+import WeatherContext from './context/weather.context';
+import Loader from './components/Loader';
 
-function Main() {
+function Page() {
 const {loading, currentWeather, dailyForecast, hourlyForecast} = useContext(WeatherContext);
 
-  return <div className='Main'>
+  return <div className='page'>
     {loading ? (
       <Loader/>
     ) : (
@@ -29,4 +29,4 @@ const {loading, currentWeather, dailyForecast, hourlyForecast} = useContext(Weat
   </div>;
 }
 
-export default Main;
+export default Page;

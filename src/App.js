@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import Header from './components/Header';
-import Main from './components/Main';
+import Page from './page';
 import ThemeContext from './context/theme.context'
 import './styles/components/App.scss';
 import "bootstrap-icons/font/bootstrap-icons.css"
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className={`App-${dark ? "dark" : "light"}`}> 
       <Header />
-      <Main />
+      <Page />
     </div>
   );
 }
