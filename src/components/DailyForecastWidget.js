@@ -9,8 +9,7 @@ function DailyForecastWidget({ data }) {
     icon, 
     summary, 
     temperature_max, 
-    temperature_min, 
-    temperature, 
+    temperature_min,  
     precipitation 
   } = data;
 
