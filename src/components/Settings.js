@@ -14,10 +14,12 @@ function Settings() {
         setOpenSettings(false);
     }
 
+    {/*
     const toggleTheme = () => {
         setDark(prevDark => !prevDark);
         saveThemeToLocalStorage(!dark);
     }
+    */}
 
   return (
     <div className="Settings">
