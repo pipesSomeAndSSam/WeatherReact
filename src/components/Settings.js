@@ -21,6 +21,7 @@ function Settings() {
 
   return (
     <div className="Settings">
+        {/*
         <div className="theme-toggler">
             <div className="theme-buttons" onClick={toggleTheme}>
                 <div className={`light-theme-btn ${dark ? '' : 'active'}`}>
@@ -31,6 +32,7 @@ function Settings() {
                 </div>
             </div>
         </div>
+        */}
         <div className="settings-btn" onClick={() => setOpenSettings((prevVal) => !prevVal)}>
             <i className={`bi bi-gear${opentSettings ? '-fill' : ''}`}></i>
         </div>
